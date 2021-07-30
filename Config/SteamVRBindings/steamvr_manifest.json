@@ -148,14 +148,6 @@
 			"requirement": "optional"
 		},
 		{
-			"name": "/actions/main/in/TeleportRight",
-			"type": "boolean"
-		},
-		{
-			"name": "/actions/main/in/TeleportLeft",
-			"type": "boolean"
-		},
-		{
 			"name": "/actions/main/in/GrabLeft",
 			"type": "boolean"
 		},
@@ -164,16 +156,84 @@
 			"type": "boolean"
 		},
 		{
-			"name": "/actions/main/in/TeleportDirectionUp axis",
-			"type": "vector1"
+			"name": "/actions/main/in/TeleportLeft",
+			"type": "boolean"
 		},
 		{
-			"name": "/actions/main/in/TeleportDirectionRight axis",
-			"type": "vector1"
+			"name": "/actions/main/in/TeleportRight",
+			"type": "boolean"
 		},
 		{
-			"name": "/actions/main/in/MotionControllerThumbLeft_Y axis",
-			"type": "vector1"
+			"name": "/actions/main/in/VREditor_Left_WorldMovement",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/VREditor_Left_Modifier",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/VREditor_Left_TrackpadDown",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/VREditor_Left_TrackpadLeft",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/VREditor_Left_TrackpadRight",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/VREditor_Left_TrackpadUp",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/VREditor_Left_ConfirmRadialSelection",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/VREditor_Left_Touch",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/VREditor_Left_Modifier2",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/VREditor_Right_WorldMovement",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/VREditor_Right_Modifier",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/VREditor_Right_TrackpadDown",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/VREditor_Right_TrackpadLeft",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/VREditor_Right_TrackpadRight",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/VREditor_Right_TrackpadUp",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/VREditor_Right_ConfirmRadialSelection",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/VREditor_Right_Touch",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/VREditor_Right_Modifier2",
+			"type": "boolean"
 		},
 		{
 			"name": "/actions/main/in/MotionControllerThumbLeft_X,MotionControllerThumbLeft_Y X Y_axis2d",
@@ -184,7 +244,7 @@
 			"type": "vector1"
 		},
 		{
-			"name": "/actions/main/in/MotionControllerThumbRight_Y axis",
+			"name": "/actions/main/in/MotionControllerThumbLeft_Y axis",
 			"type": "vector1"
 		},
 		{
@@ -193,6 +253,42 @@
 		},
 		{
 			"name": "/actions/main/in/MotionControllerThumbRight_X axis",
+			"type": "vector1"
+		},
+		{
+			"name": "/actions/main/in/MotionControllerThumbRight_Y axis",
+			"type": "vector1"
+		},
+		{
+			"name": "/actions/main/in/MoveRight axis",
+			"type": "vector1"
+		},
+		{
+			"name": "/actions/main/in/MoveUp axis",
+			"type": "vector1"
+		},
+		{
+			"name": "/actions/main/in/TeleportDirectionRight axis",
+			"type": "vector1"
+		},
+		{
+			"name": "/actions/main/in/TeleportDirectionUp axis",
+			"type": "vector1"
+		},
+		{
+			"name": "/actions/main/in/Thrust axis",
+			"type": "vector1"
+		},
+		{
+			"name": "/actions/main/in/VREditor_Left_TriggerAxis axis",
+			"type": "vector1"
+		},
+		{
+			"name": "/actions/main/in/VREditor_Left_WorldMovement axis",
+			"type": "vector1"
+		},
+		{
+			"name": "/actions/main/in/VREditor_Right_TriggerAxis axis",
 			"type": "vector1"
 		}
 	],
@@ -203,6 +299,106 @@
 		}
 	],
 	"default_bindings": [
+		{
+			"controller_type": "knuckles",
+			"binding_url": "knuckles.json"
+		},
+		{
+			"controller_type": "vive_controller",
+			"binding_url": "vive_controller.json"
+		},
+		{
+			"controller_type": "vive_cosmos_controller",
+			"binding_url": "vive_cosmos_controller.json"
+		},
+		{
+			"controller_type": "oculus_touch",
+			"binding_url": "oculus_touch.json"
+		},
+		{
+			"controller_type": "holographic_controller",
+			"binding_url": "holographic_controller.json"
+		},
+		{
+			"controller_type": "hpmotioncontroller",
+			"binding_url": "hpmotioncontroller.json"
+		},
+		{
+			"controller_type": "indexhmd",
+			"binding_url": "indexhmd.json"
+		},
+		{
+			"controller_type": "vive",
+			"binding_url": "vive.json"
+		},
+		{
+			"controller_type": "vive_pro",
+			"binding_url": "vive_pro.json"
+		},
+		{
+			"controller_type": "rift",
+			"binding_url": "rift.json"
+		},
+		{
+			"controller_type": "vive_tracker",
+			"binding_url": "vive_tracker.json"
+		},
+		{
+			"controller_type": "vive_tracker_camera",
+			"binding_url": "vive_tracker_camera.json"
+		},
+		{
+			"controller_type": "vive_tracker_waist",
+			"binding_url": "vive_tracker_waist.json"
+		},
+		{
+			"controller_type": "vive_tracker_left_foot",
+			"binding_url": "vive_tracker_left_foot.json"
+		},
+		{
+			"controller_type": "vive_tracker_right_foot",
+			"binding_url": "vive_tracker_right_foot.json"
+		},
+		{
+			"controller_type": "vive_tracker_left_shoulder",
+			"binding_url": "vive_tracker_left_shoulder.json"
+		},
+		{
+			"controller_type": "vive_tracker_right_shoulder",
+			"binding_url": "vive_tracker_right_shoulder.json"
+		},
+		{
+			"controller_type": "vive_tracker_left_elbow",
+			"binding_url": "vive_tracker_left_elbow.json"
+		},
+		{
+			"controller_type": "vive_tracker_right_elbow",
+			"binding_url": "vive_tracker_right_elbow.json"
+		},
+		{
+			"controller_type": "vive_tracker_left_knee",
+			"binding_url": "vive_tracker_left_knee.json"
+		},
+		{
+			"controller_type": "vive_tracker_right_knee",
+			"binding_url": "vive_tracker_right_knee.json"
+		},
+		{
+			"controller_type": "vive_tracker_chest",
+			"binding_url": "vive_tracker_chest.json"
+		},
+		{
+			"controller_type": "vive_tracker_keyboard",
+			"binding_url": "vive_tracker_keyboard.json"
+		},
+		{
+			"controller_type": "vive_tracker_handed",
+			"binding_url": "vive_tracker_handed.json"
+		},
+		{
+			"controller_type": "gamepad",
+			"binding_url": "gamepad.json"
+		},
 		{
 			"controller_type": "knuckles",
 			"binding_url": "knuckles.json"
@@ -336,18 +532,42 @@
 			"/actions/main/out/vibrateleft": "Haptic (Left)",
 			"/actions/main/out/vibrateright": "Haptic (Right)",
 			"/actions/main/in/open_console": "Open Console",
-			"/actions/main/in/TeleportRight": "TeleportRight",
-			"/actions/main/in/TeleportLeft": "TeleportLeft",
 			"/actions/main/in/GrabLeft": "GrabLeft",
 			"/actions/main/in/GrabRight": "GrabRight",
-			"/actions/main/in/TeleportDirectionUp axis": "TeleportDirectionUp",
-			"/actions/main/in/TeleportDirectionRight axis": "TeleportDirectionRight",
-			"/actions/main/in/MotionControllerThumbLeft_Y axis": "MotionControllerThumbLeft_Y",
+			"/actions/main/in/TeleportLeft": "TeleportLeft",
+			"/actions/main/in/TeleportRight": "TeleportRight",
+			"/actions/main/in/VREditor_Left_WorldMovement": "VREditor_Left_WorldMovement",
+			"/actions/main/in/VREditor_Left_Modifier": "VREditor_Left_Modifier",
+			"/actions/main/in/VREditor_Left_TrackpadDown": "VREditor_Left_TrackpadDown",
+			"/actions/main/in/VREditor_Left_TrackpadLeft": "VREditor_Left_TrackpadLeft",
+			"/actions/main/in/VREditor_Left_TrackpadRight": "VREditor_Left_TrackpadRight",
+			"/actions/main/in/VREditor_Left_TrackpadUp": "VREditor_Left_TrackpadUp",
+			"/actions/main/in/VREditor_Left_ConfirmRadialSelection": "VREditor_Left_ConfirmRadialSelection",
+			"/actions/main/in/VREditor_Left_Touch": "VREditor_Left_Touch",
+			"/actions/main/in/VREditor_Left_Modifier2": "VREditor_Left_Modifier2",
+			"/actions/main/in/VREditor_Right_WorldMovement": "VREditor_Right_WorldMovement",
+			"/actions/main/in/VREditor_Right_Modifier": "VREditor_Right_Modifier",
+			"/actions/main/in/VREditor_Right_TrackpadDown": "VREditor_Right_TrackpadDown",
+			"/actions/main/in/VREditor_Right_TrackpadLeft": "VREditor_Right_TrackpadLeft",
+			"/actions/main/in/VREditor_Right_TrackpadRight": "VREditor_Right_TrackpadRight",
+			"/actions/main/in/VREditor_Right_TrackpadUp": "VREditor_Right_TrackpadUp",
+			"/actions/main/in/VREditor_Right_ConfirmRadialSelection": "VREditor_Right_ConfirmRadialSelection",
+			"/actions/main/in/VREditor_Right_Touch": "VREditor_Right_Touch",
+			"/actions/main/in/VREditor_Right_Modifier2": "VREditor_Right_Modifier2",
 			"/actions/main/in/MotionControllerThumbLeft_X,MotionControllerThumbLeft_Y X Y_axis2d": "MotionControllerThumbLeft",
 			"/actions/main/in/MotionControllerThumbLeft_X axis": "MotionControllerThumbLeft_X",
-			"/actions/main/in/MotionControllerThumbRight_Y axis": "MotionControllerThumbRight_Y",
+			"/actions/main/in/MotionControllerThumbLeft_Y axis": "MotionControllerThumbLeft_Y",
 			"/actions/main/in/MotionControllerThumbRight_X,MotionControllerThumbRight_Y X Y_axis2d": "MotionControllerThumbRight",
 			"/actions/main/in/MotionControllerThumbRight_X axis": "MotionControllerThumbRight_X",
+			"/actions/main/in/MotionControllerThumbRight_Y axis": "MotionControllerThumbRight_Y",
+			"/actions/main/in/MoveRight axis": "MoveRight",
+			"/actions/main/in/MoveUp axis": "MoveUp",
+			"/actions/main/in/TeleportDirectionRight axis": "TeleportDirectionRight",
+			"/actions/main/in/TeleportDirectionUp axis": "TeleportDirectionUp",
+			"/actions/main/in/Thrust axis": "Thrust",
+			"/actions/main/in/VREditor_Left_TriggerAxis axis": "VREditor_Left_TriggerAxis",
+			"/actions/main/in/VREditor_Left_WorldMovement axis": "VREditor_Left_WorldMovement",
+			"/actions/main/in/VREditor_Right_TriggerAxis axis": "VREditor_Right_TriggerAxis",
 			"/actions/main": "Main Game Actions"
 		}
 	]

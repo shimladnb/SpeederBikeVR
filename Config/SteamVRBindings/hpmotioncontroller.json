@@ -8,28 +8,6 @@
 		{
 			"sources": [
 				{
-					"mode": "joystick",
-					"path": "/user/hand/right/input/joystick",
-					"inputs":
-					{
-						"click":
-						{
-							"output": "/actions/main/in/TeleportRight"
-						}
-					}
-				},
-				{
-					"mode": "joystick",
-					"path": "/user/hand/left/input/joystick",
-					"inputs":
-					{
-						"click":
-						{
-							"output": "/actions/main/in/TeleportLeft"
-						}
-					}
-				},
-				{
 					"mode": "trigger",
 					"path": "/user/hand/left/input/trigger",
 					"inputs":
@@ -48,6 +26,28 @@
 						"click":
 						{
 							"output": "/actions/main/in/GrabRight"
+						}
+					}
+				},
+				{
+					"mode": "joystick",
+					"path": "/user/hand/left/input/joystick",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/TeleportLeft"
+						}
+					}
+				},
+				{
+					"mode": "joystick",
+					"path": "/user/hand/right/input/joystick",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/TeleportRight"
 						}
 					}
 				},
@@ -107,5 +107,5 @@
 			]
 		}
 	},
-	"description": ""
+	"description": "Virtual Reality BP Game Template-15973114"
 }
